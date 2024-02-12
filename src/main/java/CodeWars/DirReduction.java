@@ -3,6 +3,9 @@ package CodeWars;
 import java.util.*;
 
 public class DirReduction {
+    //       String[] list = { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
+//       String[] list2 = { "NORTH", "WEST", "SOUTH", "EAST"};
+//       String[] list3 = {"NORTH", "SOUTH", "EAST", "WEST"};
     public static String[] dirReduc(String[] arr) {
 
         ArrayList<String> result = new ArrayList<>(List.of(arr));

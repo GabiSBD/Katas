@@ -10,13 +10,9 @@ import java.util.regex.Pattern;
 
 public class Kata {
     public static void main(String[] args) {
-       String[] list = { "NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST" };
-       String[] list2 = { "NORTH", "WEST", "SOUTH", "EAST"};
-       String[] list3 = {"NORTH", "SOUTH", "EAST", "WEST"};
-
-
-       String[] result = DirReduction.dirReduc(list3);
-        System.out.print(Arrays.toString(result));
+        Solution obj = new Solution();
+        int result = obj.solution(10);
+        System.out.println(result);
     }
     public static List<Object> filterList(final List<Object> list) {
 
