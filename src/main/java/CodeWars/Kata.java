@@ -7,7 +7,9 @@ import java.util.regex.Pattern;
 
 public class Kata {
     public static void main(String[] args) {
-
+        Solution obj = new Solution();
+        int result = obj.solution(10);
+        System.out.println(result);
     }
     public static List<Object> filterList(final List<Object> list) {
 
