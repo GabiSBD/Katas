@@ -14,7 +14,7 @@ public class MorseCodeDecoder {
 
             String[] letters = word.split("\s");
 
-            for (String letter : letters) if(Objects.nonNull(MorseCode.get(letter)) && !letter.equals(" ")) result.append(MorseCode.get(letter));
+       //     for (String letter : letters) if(Objects.nonNull(MorseCode.get(letter)) && !letter.equals(" ")) result.append(MorseCode.get(letter));
 
             if(!result.isEmpty()) result.append(" ");
         }
