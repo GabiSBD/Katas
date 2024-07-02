@@ -73,7 +73,7 @@ public class Curso {
     }
 
     /* Esto en el main de Kata
-    
+
     Curso curso = new Curso();
         List<Curso> cursos= curso.getCursos();
 
