@@ -2,14 +2,13 @@ package CodeWars;
 
 
 import java.util.*;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Kata {
     public static void main(String[] args) {
-        System.out.println(createPhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
+        System.out.println(OrderString.order("is2 Thi1s T4est 3a"));
     }
     public static List<Object> filterList(final List<Object> list) {
 
