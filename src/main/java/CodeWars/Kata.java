@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 
 public class Kata {
     public static void main(String[] args) {
-        System.out.println(OrderString.order("is2 Thi1s T4est 3a"));
+        System.out.println(Snail.snail(new int[][]{{}}));
     }
     public static List<Object> filterList(final List<Object> list) {
 
