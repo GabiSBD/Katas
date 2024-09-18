@@ -8,7 +8,8 @@ import java.util.stream.Collectors;
 
 public class Kata {
     public static void main(String[] args) {
-        System.out.println(Snail.snail(new int[][]{{}}));
+        Dictionary dictionary = new Dictionary(new String[]{"cherry", "pineapple", "melon", "strawberry", "raspberry"});
+        System.out.println(dictionary.findMostSimilar("berry"));
     }
     public static List<Object> filterList(final List<Object> list) {
 
